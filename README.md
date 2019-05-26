@@ -1,6 +1,6 @@
 # HTML Table Scraper
 
-A python package that can extract data from any HTML table and extract to CSV or JSON files
+A python package that can extract data from any HTML table and export to CSV or JSON files
 
 
 ## Usage
