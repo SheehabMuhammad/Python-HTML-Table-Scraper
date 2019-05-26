@@ -1,4 +1,4 @@
-# HTML Table Scraper
+# Python HTML Table Scraper
 
 A python package that can extract data from any HTML table and export to CSV or JSON files
 
@@ -40,6 +40,17 @@ print(scraperT.extract())
 ```
 
 
+### HTML Table Exporter
+
+```
+from pyscraper import exporter
+
+exporterT = exporter.Exporter(data)
+
+exporterT.exportJSON()
+
+exporterT.exportCSV()
+```
 
 [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
 to write your content.
